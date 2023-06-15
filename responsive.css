@@ -1,0 +1,241 @@
+@media only screen and (min-width: 768px) {
+  /* text-paragraphs and padding-top */
+
+h1 {
+    padding-top: 180px;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -0.78px;
+    color: #172339;
+} .h1bold { font-weight: 700;} .p1 { padding-top: 40px; padding-bottom: 40px; padding-right: 200px;
+    font-weight: 400; font-size: 16px; line-height: 28px; 
+    letter-spacing: 0.09px; color: #49566D;
+    }
+
+
+h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #172339;
+} .p2 { text-align: center; font-weight: 400; font-size: 16px; line-height: 26px;
+     letter-spacing: 2.5px; color: #49566D;
+    }
+
+
+h3 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.42px;
+    color: #FAF8F6;
+} .h3bold { font-weight: 700;} .p3 { padding-top: 40px; text-align: center; font-weight: 400; font-size: 18px;
+     line-height: 32px; letter-spacing: 0.09px; color: #F3EDE7;
+    }
+
+
+h4 {
+    padding-top: 40px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    color: #FAF8F6;
+} .p4 { text-align: center; font-weight: 400; font-size: 16px; 
+    line-height: 26px; letter-spacing: 2.5px; color: #F3EDE7;
+    }      
+
+
+h5 {
+    padding-top: 450px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0.08px;
+    color: #49566D;
+}
+/* end of text-paragraphs padding-top */
+
+
+/* BUTTONS1-2 */
+
+.button1 {
+    width: 219px;
+    height: 56px;
+    border-radius: 6px;
+    border-color: #172339;
+    background-color: #FAF8F6;
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: -0.16px;
+    color: #172339;
+    transition: background-color 1s ease-out;
+} .button1:hover { color: #FAF8F6; background-color: #172339;}
+
+
+.button2 {
+    width: 256px;
+    height: 61px;
+    border-radius: 6px;
+    border-color: #172339;
+    background-color: #172339;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    color: #FAF8F6;
+    transition: background-color 1s ease-out;
+
+} .button2:hover { border: none; 
+    background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+}
+/* END OF BUTTONS */
+
+
+
+/* positionings */
+
+.mobilesection {
+    padding-left: 40px;
+    padding-right: 40px;   
+}
+
+body {
+    font-family: 'Epilogue', sans-serif;
+    padding-top: 40px;
+    background-image: url(./image/image-hero-portrait.png);
+    background-repeat: no-repeat;
+    background-position-y: 11.5%;
+    background-position-x: 92%;
+    background-size: 281px, 482px;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1 {
+    width: 540px;
+}
+
+
+.section2 {
+    padding-top: 142px;
+    padding-bottom: 92px;
+    display:flex;
+    justify-content: space-around; 
+}
+
+.section3 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1137px;
+    width: 559px;
+    height: 684px;
+    border-radius: 15px;
+    padding-left: 56px;
+    padding-right: 56px; 
+    background-color: #172339;
+}
+
+.center {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/* end of positionings */
+
+
+
+/* IMAGES */
+
+.curved-line1 {
+    visibility: hidden;
+    margin-top: 65px;
+    margin-left: 154px;
+}
+
+.curved-line1tablet {
+    visibility: visible;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 222px;
+}
+
+.image1 {
+    display: none;
+}
+
+.jeremy {
+    position: absolute;
+    bottom: 71%;
+    z-index: 1;
+}
+
+.blur {
+    position: absolute;
+    bottom: 58%;
+}
+
+.curved-line2 {
+    margin-top: 200px;
+    margin-bottom: 37px;   
+}
+
+/* END OF IMAGES */
+
+
+/* FOOTER */
+
+footer {
+    display:Flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 640px;
+    margin-top: 450px;
+    margin-bottom: 0px;
+    background-color: #F3EDE7;
+    gap: 33px;
+}
+
+.logo2 {
+    padding-top: 450px;
+}
+
+.contacts {
+    display:flex;
+    flex-direction: row;
+    gap: 28px;
+    padding-top: 526px;
+    padding-bottom: 80px;
+}
+
+.facebook:hover {
+    opacity: 0.5;
+}
+
+.twitter:hover {
+    opacity: 0.5;
+}
+
+.instagram:hover {
+    opacity: 0.5;
+}
+/* END OF FOOTER */
+}
